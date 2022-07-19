@@ -16,7 +16,6 @@ def solution(id_list, report, k):
     for i in report:
         if i not in unique_report:
             unique_report.append(i)
-
     
     for i in range(0, len(id_list)):
         for j in range(0, len(unique_report)):
